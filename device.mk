@@ -231,6 +231,7 @@ PRODUCT_PACKAGES += \
     SystemUIResMumba \
     WifiResMumba \
     FrameworksResMumba \
+    LineageDialerOverlayMumba \
     SettingsResMumba \
     TelephonyResMumba
 
