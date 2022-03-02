@@ -351,6 +351,7 @@ vendor.usb.rmnet.inst.name=rmnet
 vendor.usb.rndis.func.name=gsi
 vendor.usb.use_ffs_mtp=1
 vendor.usb.use_gadget_hal=1
+vendor.usb.product_string=Motorola G57 Power 
 
 # Keymint
 vendor.keymint.retry_timer=5
