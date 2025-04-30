@@ -173,6 +173,14 @@ PRODUCT_PACKAGES += \
     android.hardware.biometrics.common.util.vendor \
     android.hardware.biometrics.common.thread.vendor
 
+# FM
+ifeq ($(TARGET_HAS_FM),true)
+PRODUCT_PACKAGES += \
+    FM2 \
+    libqcomfm_jni \
+    qcom.fmradio
+endif
+
 # GPS
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.location.gps.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.location.gps.xml

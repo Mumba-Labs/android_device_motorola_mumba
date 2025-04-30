@@ -53,6 +53,11 @@ TARGET_SCREEN_DENSITY := 390
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(DEVICE_PATH)/configs/config.fs
 
+# FM
+ifeq ($(TARGET_HAS_FM),true)
+BOARD_HAVE_QCOM_FM := true
+endif
+
 # DTB / DTBO
 BOARD_INCLUDE_DTB_IN_BOOTIMG := true
 BOARD_USES_QCOM_MERGE_DTBS_SCRIPT := true
