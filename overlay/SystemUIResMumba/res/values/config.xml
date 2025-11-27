@@ -70,4 +70,8 @@ IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
          Leave 1 if you have mA, put 1000 if you have µA -->
     <integer name="config_currentInfoDivider" translatable="false">1</integer>
     
+    <!-- Preferred refresh rate at keyguard, if supported by the display. Overrides
+         keyguardMaxRefreshRate. -->
+    <integer name="config_keyguardRefreshRate">120</integer>
+
 </resources>
