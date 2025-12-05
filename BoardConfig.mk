@@ -157,6 +157,11 @@ TARGET_BOARD_PLATFORM := parrot
 BOOT_SECURITY_PATCH := 2026-03-01
 VENDOR_SECURITY_PATCH := $(BOOT_SECURITY_PATCH)
 
+BOARD_ROOT_EXTRA_SYMLINKS := \
+    /vendor/firmware_mnt:/firmware \
+    /vendor/bt_firmware:/bt_firmware \
+    /vendor/dsp:/dsp
+
 # Properties
 TARGET_ODM_PROP += $(DEVICE_PATH)/configs/properties/odm.prop
 TARGET_PRODUCT_PROP += $(DEVICE_PATH)/configs/properties/product.prop
