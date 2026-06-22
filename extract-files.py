@@ -141,6 +141,8 @@ blob_fixups: blob_fixups_user_type = {
             r'(<ctl name="RX_RX([012]) Digital Volume" value=")84(" ?/>)',
             r'\g<1>86\g<3>',
         ),
+    'system/framework/WfdCommon.jar': blob_fixup()
+        .apktool_patch('blob-patches/WfdCommon.patch'),
 }  # fmt: skip
 
 extract_fns: extract_fns_user_type = {
