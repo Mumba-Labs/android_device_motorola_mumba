@@ -150,6 +150,13 @@ blob_fixups: blob_fixups_user_type = {
     'vendor/bin/hw/android.hardware.biometrics.fingerprint-service.fpc': blob_fixup()
         .remove_needed('android.hardware.biometrics.fingerprint-V4-ndk.so')
         .remove_needed('android.hardware.biometrics.common-V4-ndk.so'),
+    (
+        "vendor/etc/audio/sku_parrot/mixer_paths_parrot_qrd.xml",
+    ): blob_fixup()
+        .regex_replace(
+            r'(<ctl name="RX_RX([012]) Digital Volume" value=")84(" ?/>)',
+            r'\g<1>100\g<3>',
+        ),
 } # fmt: skip
 
 extract_fns: extract_fns_user_type = {
