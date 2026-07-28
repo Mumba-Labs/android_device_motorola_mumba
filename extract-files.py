@@ -155,7 +155,7 @@ blob_fixups: blob_fixups_user_type = {
     ): blob_fixup()
         .regex_replace(
             r'(<ctl name="RX_RX([012]) Digital Volume" value=")84(" ?/>)',
-            r'\g<1>100\g<3>',
+            r'\g<1>86\g<3>',
         ),
 } # fmt: skip
 
