@@ -233,6 +233,7 @@ PRODUCT_PACKAGES += \
     FrameworksResMumba \
     LineageDialerOverlayMumba \
     LineageSystemUIMumba \
+    LineageSdkMumba \
     SettingsResMumba \
     TelephonyResMumba
 
