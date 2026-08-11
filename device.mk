@@ -237,8 +237,10 @@ PRODUCT_PACKAGES += \
     LineageDialerOverlayMumba \
     LineageSystemUIMumba \
     LineageSdkMumba \
+    LineageSettingsProviderMumba \
     SettingsResMumba \
-    TelephonyResMumba
+    TelephonyResMumba \
+    ApertureResMumba
 
 PRODUCT_PACKAGES += \
     NcmTetheringOverlay
