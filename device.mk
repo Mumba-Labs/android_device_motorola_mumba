@@ -298,9 +298,6 @@ PRODUCT_PACKAGES += \
 PRODUCT_PACKAGES += \
     android.hardware.power-service-qti
 
-PRODUCT_COPY_FILES += \
-    vendor/qcom/opensource/power/config/parrot/powerhint.xml:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.xml
-
 # QSPA
 PRODUCT_PACKAGES += \
     vendor.qti.qspa-service \

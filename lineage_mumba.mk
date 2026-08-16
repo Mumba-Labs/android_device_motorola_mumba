@@ -34,8 +34,8 @@ AXION_MAINTAINER := Viaan
 AXION_PROCESSOR := Snapdragon_6s_Gen_4
 
 PRODUCT_BUILD_PROP_OVERRIDES += \
-    BuildDesc="mumba_g-user 16 W1WAA36M.48-12-ST12.1 83f8c release-keys" \
-    BuildFingerprint=motorola/mumba_g/mumba:16/W1WAA36M.48-12-ST12.1/83f8c:user/release-keys \
+    BuildDesc="mumba_g-user 16 W1WAAS36M.48-12-ST12.1 c557f6 release-keys" \
+    BuildFingerprint=motorola/mumba_g/mumba:16/W1WAAS36M.48-12-ST12.1/c557f6:user/release-keys \
     DeviceName=mumba_g \
     DeviceProduct=mumba_g \
     SystemDevice=mumba \
