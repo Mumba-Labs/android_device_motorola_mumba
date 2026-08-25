@@ -11,6 +11,9 @@ $(call inherit-product, hardware/qcom-caf/common/common.mk)
 # Dolby Atmos
 $(call inherit-product, hardware/dolby/dolby.mk)
 
+# Google Camera
+$(call inherit-product-if-exists, hardware/GoogleCamera/GoogleCamera.mk)
+
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
