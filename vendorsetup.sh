@@ -13,3 +13,7 @@ git clone https://github.com/Mumba-Labs/android_hardware_motorola.git hardware/m
 # Dolby Atmos
 rm -rf hardware/dolby
 git clone https://github.com/Mumba-Labs/android_hardware_dolby.git hardware/dolby
+
+# GoogleCamera
+rm -rf hardware/GoogleCamera
+git clone https://github.com/Mumba-Labs/android_hardware_GoogleCamera hardware/GoogleCamera
