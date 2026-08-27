@@ -7,8 +7,6 @@ rm -rf device/motorola/mumba-kernel
 git clone https://github.com/Mumba-Labs/android_device_motorola_mumba-kernel.git device/motorola/mumba-kernel
 
 # Hardware
-rm -rf hardware/motorola
-git clone https://github.com/Mumba-Labs/android_hardware_motorola.git hardware/motorola
 
 # Dolby Atmos
 rm -rf hardware/dolby
