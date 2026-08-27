@@ -72,6 +72,9 @@ remote_provisioning.hostname=remoteprovisioning.googleapis.com
 # Radio
 ro.vendor.radio.imei.sv=24
 
+# Maintainer
+ro.lunaris.maintainer=NoEscape.exe
+
 # Battery Saving
 persist.radio.add_power_save=1
 pm.sleep_mode=1
