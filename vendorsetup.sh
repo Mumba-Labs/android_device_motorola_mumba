@@ -13,3 +13,7 @@ git clone https://github.com/Mumba-Labs/android_hardware_motorola.git hardware/m
 # Dolby Atmos
 rm -rf hardware/dolby
 git clone https://github.com/Mumba-Labs/android_hardware_dolby.git hardware/dolby
+
+# GameBar
+rm -rf packages/apps/GameBar
+git clone https://github.com/Larry-ROM-Archive/packages_apps_GameBar packages/apps/GameBar
