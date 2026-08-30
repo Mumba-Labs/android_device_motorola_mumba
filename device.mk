@@ -251,10 +251,8 @@ PRODUCT_PACKAGES += \
     LineageDialerOverlayMumba \
     LineageSystemUIMumba \
     LineageSdkMumba \
-    LineageSettingsProviderMumba \
     SettingsResMumba \
-    TelephonyResMumba \
-    ApertureResMumba
+    TelephonyResMumba
 
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
