@@ -243,10 +243,8 @@ PRODUCT_PACKAGES += \
     LineageDialerOverlayMumba \
     LineageSystemUIMumba \
     LineageSdkMumba \
-    LineageSettingsProviderMumba \
-    SettingsResMumba \
     TelephonyResMumba \
-    ApertureResMumba \
+    SettingsResMumba \
     DolbyFrameworksResCommon
 
 PRODUCT_PACKAGES += \
