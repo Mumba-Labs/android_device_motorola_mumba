@@ -14,6 +14,9 @@ $(call inherit-product, hardware/dolby/dolby.mk)
 # Google Camera
 $(call inherit-product-if-exists, hardware/GoogleCamera/GoogleCamera.mk)
 
+# GameBar Performance Overlay
+$(call inherit-product, packages/apps/GameBar/gamebar.mk)
+
 # A/B
 $(call inherit-product, $(SRC_TARGET_DIR)/product/virtual_ab_ota/launch_with_vendor_ramdisk.mk)
 
