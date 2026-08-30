@@ -21,10 +21,15 @@ PRODUCT_MODEL := Motorola G57 Power
 
 PRODUCT_GMS_CLIENTID_BASE := android-motorola
 
+WITH_GMS := true
+TARGET_ENABLE_BLUR := true
+
 PRODUCT_BUILD_PROP_OVERRIDES += \
     BuildDesc="mumba_g-user 16 W1WAAS36M.48-12-ST12.1 c557f6 release-keys" \
     BuildFingerprint=motorola/mumba_g/mumba:16/W1WAAS36M.48-12-ST12.1/c557f6:user/release-keys \
     DeviceName=mumba_g \
     DeviceProduct=mumba_g \
     SystemDevice=mumba \
-    SystemName=mumba
+    SystemName=mumba \
+    RisingChipset="Snapdragon™ 6s Gen 4" \
+    RisingMaintainer="NoEscape.exe"
