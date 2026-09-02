@@ -94,6 +94,11 @@ on early-boot
     start vendor.sensors
     verity_update_state
 
+on early-boot
+    # Dolby
+    mkdir /data/vendor/dolby 0770 media media
+    mkdir /data/vendor/multimedia 0775 system system
+
 on boot
     write /dev/cpuset/audio-app/cpus 1-2
     # Add a cpuset for the camera daemon

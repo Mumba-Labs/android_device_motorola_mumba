@@ -8,9 +8,6 @@ PRODUCT_CHECK_PREBUILT_MAX_PAGE_SIZE := false
 # Add common definitions for Qualcomm
 $(call inherit-product, hardware/qcom-caf/common/common.mk)
 
-# Dolby Atmos
-$(call inherit-product, hardware/dolby/dolby.mk)
-
 # Google Camera
 $(call inherit-product-if-exists, hardware/GoogleCamera/GoogleCamera.mk)
 
@@ -249,7 +246,8 @@ PRODUCT_PACKAGES += \
     LineageSettingsProviderMumba \
     SettingsResMumba \
     TelephonyResMumba \
-    ApertureResMumba
+    ApertureResMumba \
+    DolbyFrameworksResCommon
 
 PRODUCT_PACKAGES += \
     CarrierConfigOverlay \
@@ -316,6 +314,10 @@ PRODUCT_PACKAGES += \
 # Shipping API
 BOARD_SHIPPING_API_LEVEL := 202404
 PRODUCT_SHIPPING_API_LEVEL := 36
+
+# Spatial Audio
+PRODUCT_COPY_FILES += \
+    frameworks/native/data/etc/android.hardware.sensor.dynamic.head_tracker.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.sensor.dynamic.head_tracker.xml
 
 # Sensors
 PRODUCT_PACKAGES += \

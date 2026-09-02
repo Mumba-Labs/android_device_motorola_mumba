@@ -1,6 +1,7 @@
 # Audio
 audio.spatializer.pose_predictor_type=2
 audio.spatializer.prediction_duration_ms=50
+audio.spatializer.effect.util_clamp_min=300
 persist.vendor.audio.effectimplenter=dolby
 ro.vendor.audio.stereo_master_volume=1
 aaudio.hw_burst_min_usec=2000
@@ -22,7 +23,8 @@ persist.vendor.audio.fluence.speaker=true
 persist.vendor.audio.fluence.tmic.enabled=false
 persist.vendor.audio.fluence.voicecall=true
 persist.vendor.audio.fluence.voicerec=false
-persist.vendor.audio.spatializer.enable=false
+persist.vendor.audio.spatializer.enable=true
+persist.vendor.audio.spatializer.speaker_enabled=true
 persist.vendor.audio.ha_proxy.enabled=true
 persist.vendor.audio.ras.enabled=false
 persist.vendor.audio.spv3.enable=true
@@ -45,6 +47,9 @@ ro.vendor.audio.sdk.fluencetype=none
 ro.vendor.audio.sdk.ssr=false
 ro.vendor.beluga.c=0x4800
 ro.audio.spatializer_enabled=true
+ro.audio.headtracking_enabled=true
+ro.audio.spatializer_transaural_enabled_default=false
+ro.audio.stereo_spatialization_enabled=true
 ro.vendor.beluga.p=0x3
 ro.vendor.beluga.s=0x900
 ro.vendor.beluga.t=0x240
