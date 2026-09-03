@@ -1951,10 +1951,6 @@ vendor/etc/init/init.vendor.wlan.rc
 vendor/etc/wifi/vendor_cmd.xml
 vendor/etc/wifi/adrastea/WCNSS_mot_cfg.ini
 
-# Vibrator
-vendor/lib64/vendor.qti.hardware.vibratorCL.impl.so
-vendor/lib64/vendor.qti.hardware.vibratorOL.impl.so
-vendor/lib64/vendor.qti.hardware.vibratorSel.impl.so
 
 # Touchscreen
 vendor/firmware/ILITEK_FW_TXD
