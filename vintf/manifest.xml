@@ -21,10 +21,7 @@
         <fqname>IWifiDisplaySessionAudioTrack/default</fqname>
         <fqname>IWifiDisplaySessionImageTrack/default</fqname>
         <fqname>IWifiDisplaySessionVideoTrack/default</fqname>
-    </hal>
-    <hal format="aidl">
-        <name>vendor.dolby.dms</name>
-        <fqname>IDms/default</fqname>
+
     </hal>
     <hal format="hidl" override="true">
         <name>vendor.qti.memory.pasrmanager</name>
