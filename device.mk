@@ -132,6 +132,9 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.camera.full.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.full.xml \
     frameworks/native/data/etc/android.hardware.camera.raw.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.camera.raw.xml
 
+# Dex-pre-opt exclusions
+$(call add-product-dex-preopt-module-config,MotoSignatureApp,disable)
+
 # Dalvik
 $(call inherit-product, frameworks/native/build/phone-xhdpi-6144-dalvik-heap.mk)
 
@@ -472,3 +475,4 @@ PRODUCT_PACKAGES += \
 
 # Inherit from the proprietary files makefile.
 $(call inherit-product, vendor/motorola/mumba/mumba-vendor.mk)
+$(call inherit-product, vendor/motorola/mumba-motcamera/mumba-motcamera-vendor.mk)
